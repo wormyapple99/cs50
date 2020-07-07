@@ -1,0 +1,13 @@
+Coleman-Liau index: index = 0.0588 * L - 0.296 * S - 15.8
+
+L is the average number of letters per 100 words in the text
+
+letter: total number of letters
+words: total number of words
+L = letters/words * 100
+
+S is the average number of sentences per 100 words in the text.
+
+sentence: total number of sentences
+words: total number of words
+S = sentence/words * 100

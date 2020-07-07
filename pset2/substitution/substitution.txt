@@ -1,0 +1,16 @@
+$ ./substitution YTNSHKVEFXRBAUQZCLWDMIPGJO
+plaintext:  HELLO
+ciphertext: EHBBQ
+
+$ ./substitution ABC
+Key must contain 26 characters.
+
+$ ./substitution
+Usage: ./substitution key
+
+qwertyuiopasdfghjklzxcvbnm
+ZYXWVUTSRQPONMLKJIHGFEDCBA
+
+
+check50 cs50/problems/2020/x/substitution
+submit50 cs50/problems/2020/x/substitution
