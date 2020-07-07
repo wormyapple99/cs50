@@ -1,0 +1,22 @@
+AMEX
+= 15 digit
+=34, 37
+
+MASTERCARD
+= 16 digits
+= 51, 52, 53, 54, 55
+
+VISA
+= 13 digits, 16 digits
+= 4
+
+checksum:
+ sum(everyotherdigit*2) + sum(digits not multiplied)
+ 
+note: 
+largest numer made up of 16 digits
+smallest made up of 13 digits
+
+tips: 
+if we take a large number, divide by 10, 
+the remainder is the last digit
